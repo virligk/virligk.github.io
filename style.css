@@ -1,0 +1,762 @@
+.logo{
+
+   font-family: "Muli", sans-serif;
+
+  font-size: 20pt;
+
+  font-weight: 600;
+
+  color: #03265c;
+
+  cursor: pointer;
+
+}
+
+
+
+a{
+
+  text-decoration: none;
+
+  color: #03265c;
+
+   font-family: "Muli", sans-serif;
+
+}
+
+header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px 10%;
+
+  background: rgba(255, 255, 153, 0.5);
+
+  height: 30px;
+}
+
+
+
+.navlink{
+
+  list-style: none;
+
+  text-decoration: none;
+
+}
+
+
+
+.navlink li{
+
+  display: inline-block;
+
+  padding: 0  30px;
+
+  font-size: 14pt;
+
+  font-weight: 600;
+
+  font-color: black;
+
+}
+
+
+body{
+
+  background-image: url(4.jpeg);
+
+  background-size: cover;
+
+  position: relative;
+
+  font-family: "Muli", sans-serif;
+
+}
+
+.isi {
+
+  font-family: "Muli", sans-serif;
+
+  font-weight: bold;
+
+  color: black;
+
+  margin-left: 80px;
+
+  margin-top: 200px;
+
+}
+
+.isi h1{
+
+  font-size: 45px;
+
+}
+
+.isi h3{
+
+  font-size: 10t;
+
+}
+
+
+.tombolcoba {
+
+  position: absolute;
+
+  border-radius: 90px;
+
+  padding: 6px 20px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 10px;
+
+  background-color: #f7f294;
+
+  margin-left: 80px;
+
+  margin-top: 2px;
+
+}
+
+
+
+.masuk{
+
+  display:  block;  
+
+  margin-bottom:  20px;
+
+  padding:  15px;
+
+  width: 500px;
+
+  position: absolute;
+
+  top: 300px;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  margin-top: 300px;
+
+  margin: 5% auto;
+
+  height:  500px;
+
+  background: #fff;
+
+  border-radius: 20px;
+
+  box-sizing:   border-box;
+
+}
+
+.masuk h1{
+
+  margin-left: 30%;
+
+  font-size: 60px;
+
+  color: #f7f294;
+
+}
+
+.masukbox{
+
+  width: 100%;
+
+  overflow: hidden;
+
+  font-size: 20px;
+
+  padding: 10px 0;
+
+  margin: 8px 0;
+
+  border-bottom: 2px solid #f7f294;
+
+}
+
+
+
+
+
+.masukbox input{
+
+  border: none;
+
+  outline: none;
+
+  background: none;
+
+  color: black;
+
+  font-size: 18px;
+
+  width: 80%;
+
+  float: left;
+
+
+}
+
+.btn{
+
+  padding-left: 50%;
+
+  width: 50%;
+
+  border: none;
+
+  border-radius: 20px;
+
+  background: #53bca6;
+
+  font-size: 16pt;
+
+  padding: 5px;
+
+  cursor: pointer;
+
+  margin-top: 20px;
+
+  font-weight: bold;
+
+}
+
+.masuk p{
+
+  margin-top: 0px;
+
+  padding: 0px;
+
+  float: right;
+
+  text-align: right;
+
+  font-size: 18px;
+
+  color: black;
+
+  cursor: pointer;
+}
+
+.masuk h2{
+
+  margin-left: 10%;
+
+  float: left;
+
+  width: 80%;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  color: black;
+
+}
+
+
+.Regis{
+
+  display:  block;  
+
+  margin-bottom:  20px;
+
+  padding:  15px;
+
+  width: 600px;
+
+  position: absolute;
+
+  top: 300px;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  margin-top: 300px;
+
+  margin: 5% auto;
+
+  height:  600px;
+
+  background: #fff;
+
+  border-radius: 20px;
+
+  box-sizing:   border-box;
+
+}
+
+.Regis h1{
+
+  margin-left: 20%;
+
+  font-size: 60px;
+
+  color: #f7f294;
+
+}
+
+.registrasiform{
+
+  width: 100%;
+
+  overflow: hidden;
+
+  font-size: 20px;
+
+  padding: 10px 0;
+
+  margin: 8px 0;
+
+  border-bottom: 2px solid #f7f294;
+
+}
+
+.registrasiform input{
+
+  border: none;
+
+  outline: none;
+
+  background: none;
+
+  color: black;
+
+  font-size: 18px;
+
+  width: 80%;
+
+  float: left;
+
+}
+
+.btn{
+
+  margin-left: 25%;
+
+  width: 50%;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #f7f294;
+
+  font-size: 16pt;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+
+  font-weight: bold;
+
+}
+
+
+.Lupa{
+
+  display:  block;  
+
+  margin-bottom:  20px;
+
+  padding:  15px;
+
+  width: 500px;
+
+  position: absolute;
+
+  top: 300px;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  margin-top: 300px;
+
+  margin: 5% auto;
+
+  height:  500px;
+
+  background: #fff;
+
+  border-radius: 20px;
+
+  box-sizing:   border-box;
+  
+}
+
+.Lupa h1{
+
+  margin-left: 20%;
+
+  font-size: 60px;
+
+  color: #f7f294;
+
+}
+
+.lupapass{
+
+  width: 100%;
+
+  overflow: hidden;
+
+  font-size: 20px;
+
+  padding: 10px 0;
+
+  margin: 8px 0;
+
+  border-bottom: 2px solid #f7f294;
+
+}
+
+.lupapass input{
+
+  border: none;
+
+  outline: none;
+
+  background: none;
+
+  color: black;
+
+  font-size: 18px;
+
+  width: 80%;
+
+  float: left;
+
+}
+
+.btn{
+
+  margin-left: 10%;
+
+  width: 50%;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #f7f294;
+
+  font-size: 16pt;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+
+  font-weight: bold;
+
+}
+
+.tentang{
+
+  display:  block;  
+
+  margin-bottom:  20px;
+
+  padding:  15px;
+
+  width: 1000px;
+
+  position: absolute;
+
+  top: 300px;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  margin-top: 300px;
+
+  margin: 5% auto;
+
+  height:  450px;
+
+  background-color: rgba(192,192,192,0.5);
+
+  border-radius: 20px;
+
+  box-sizing:   border-box;
+
+}
+
+.tentang h3{
+
+  text-align: center;
+
+  font-size: 50px;
+
+}
+
+.tentang p{
+
+  text-align: center;
+
+  font-size: 25px;
+
+}
+
+.tentang h4{
+
+  text-align: center;
+
+  font-size: 25px;
+
+}
+
+.tentang input{
+
+  border-radius: 5px;
+
+  width: 50%;
+
+  height: 5%;
+
+  text-align: center;
+
+}
+
+.artikel{
+
+  display:  block;
+
+  padding:  0px;
+
+  width: 1000px;
+
+  position: absolute;
+
+  top: 350px;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  margin-top: 300px;
+
+  margin: 5% auto;
+
+  background-color: rgba(192,192,192,0.5);
+
+  border-radius: 20px;
+
+  box-sizing:   border-box;
+
+}
+
+.artikel h3{
+
+  text-align: center;
+
+  font-size: 45px;
+
+  padding: 0px;
+
+}
+
+.artikel input{
+
+  padding: 0px;
+
+  margin: 0px auto;
+
+  border-radius: 5px;
+
+  width: 50%;
+
+  height: 5%;
+
+  text-align: center;
+
+}
+
+.container-img{
+
+  padding: 8px;
+
+}
+
+.artikel h4{
+
+  text-align: center;
+
+  font-size: 20px;
+
+
+}
+
+.artikel h5{
+
+  text-align: left;
+
+  font-size: 15px;
+
+  padding left: 10px;
+
+}
+
+.artikel h6{
+
+  text-align: left;
+
+  font-size: 15px;
+
+  color: blue;
+
+  padding left: 10px;
+
+  cursor: pointer;
+
+}
+
+.bantuan .hover {
+
+  color: black;
+
+  cursor: pointer;
+
+  font-size: 20px;
+
+  padding: 5px;
+
+}
+
+.bantuan{
+
+  display:  block;
+
+  padding:  0px;
+
+  width: 1000px;
+
+  height: 450px;
+
+  position: absolute;
+
+  top: 360px;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  margin-top: 500px;
+
+  margin: 5% auto;
+
+  background-color: rgba(192,192,192,0.5);
+
+  border-radius: 20px;
+
+  box-sizing:   border-box;
+}
+
+.bantuan h1{
+
+  font-size: 50px;
+
+  text-align: center;
+
+}
+
+.bantuan h2{
+
+  font-size: 25px;
+
+  text-align: left;
+
+  padding: 10px;
+
+}
+
+
+.jasaperawat {
+
+  display:  block;  
+
+  margin-bottom:  20px;
+
+  padding:  15px;
+
+  width: 1000px;
+
+  position: absolute;
+
+  top: 300px;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+  margin-top: 300px;
+
+  margin: 5% auto;
+
+  height:  500px;
+
+  background-color: rgba(192,192,192,0.5);
+
+  border-radius: 20px;
+
+  box-sizing:   border-box;
+}
+
+.perawatbox{
+
+  width: 100%;
+
+  overflow: hidden;
+
+  font-size: 20px;
+
+  padding: 10px 0;
+
+  margin: 8px 0;
+
+  border-bottom: 2px solid #f7f294;
+}
+
+.perawatbox input{
+
+   border: none;
+
+  outline: none;
+
+  background: none;
+
+  color: black;
+
+  font-size: 18px;
+
+  width: 80%;
+
+  float: left;
+}
+
+.jasaperawat h3{
+
+  margin-left: 20%;
+
+  font-size: 40px;
+
+  color: black;
+
+}
