@@ -359,15 +359,11 @@
 
 		<a href="index.html" class="a"> S a h a b a t B u n d a </a>
 
-		<a href="jasaperawat.html" class="active">JASA PERAWAT</a>
-
-		<a href="artikel.html" class="active">ARTIKEL</a>
-
 		<a href="tentang.html" class="active">TENTANG</a>
 
-        <a href="bantuan.html" class="active">BANTUAN</a>
+		<a href="masuk.html" class="active">MASUK</a>
 
-        <a href="index.html" class="active">KELUAR</a>
+		<a href="daftarbaru.html" class="active">DAFTAR</a>
 		
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
@@ -378,23 +374,23 @@
     </div>
 
     <div class="content">
-        
-        <h1>Frequantly Asked Questin</h1>
 
-        <h2>Pertanyaan paling populer:</h2>
+    	<form class="form" action="" method="POST" onsubmit="validasi();">
 
-        <p>
-        <i class= "hover">-Bagaimana Cara Mendaftar Akun Sahabat Bunda?</i></p>
+            <label for="code">Masukkan Kode Verifikasi</label>
 
-        <p>
-        <i class= "hover">-Bagaimana Cara Menggunakan Jasa Perawat?</i></p>
+            <input type="texr" id="code" class="form-group" placeholder="Masukkan Kode Verifikasi">
 
-        <p>
-        <i class= "hover">-Bagaimana Jika Lupa Password?</i></p>
+        </form>
+
+        <a href="gantisandi.html"><button type="submit" onclick="document.getElementsByClassName('form')[0].submit(validasi())">
+        Kirim </button></a>
 
     </div>
 
-     <div class="footer">
+    </div>
+
+    <div class="footer">
 
         <div class="socialmedia">
 
@@ -414,7 +410,11 @@
 
     </div>
 
-    <script>
+    <script type="text/javascript">
+        // var validasi = (function (){
+        //     event.preventDefault();
+        //     alert('test');
+        // });
 
         function myFunction() {
 
@@ -432,8 +432,41 @@
 
         }
 
+        function validasi() {
+
+        var username = document.getElementById("username").value;
+
+        var password = document.getElementById("password").value;
+
+        console.log(username);
+
+        if (username == "" && password =="") {
+
+            alert("Data Kosong");
+
+            return false;
+
+        }else if(username !="" && password !=""){
+
+            alert("Yeayy Masuk");
+
+            window.location.href="index.html";
+
+        }
+
+        else{
+
+            alert("Data Kosong");
+
+            return false;
+
+        }
+
+     }
+
     </script>
 
 </body>
 
 </html>
+

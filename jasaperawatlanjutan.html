@@ -13,7 +13,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 	<style>
-
+		
 		*{
 
 			margin: 0;
@@ -105,67 +105,101 @@
 
         .content {
 
-            margin: 150px auto 0 auto;
+            margin: 80px auto;
 
-            width: 70%;
-
-            text-align: center;
+            width: 80%;
 
         }
 
-        form label {
+        .isi{
 
-            margin: 10px 0;
+        	margin: 0px;
+
+        	width: 90%;
+
+        	height: 300px;
+
+        	float: none;
+
+        }
+
+        .isi p {
 
             margin-bottom: 30px;
 
+           	font-size: 10pt;
+
+            }
+
+        .isi a {
+
+            text-decoration: none;
+
+            padding: 8px 20px;
+
+            font-size: 11pt;
+
+            background-color: rgb(255, 255, 0);
+
+            border-radius: 25px;
+
+            }
+
+        .contentdua {
+
+            margin: 100px 0;
+
+            margin-left: 50px;
+
         }
 
-        .form-group {
+        .isikiri {
 
-            margin: 20px auto;
+            width: 45%;
 
-            font-size: 12pt;
+            margin-left: -30px;
 
-            padding: 5px;
-
-            width: 330px;
-
-            height: 30px;
-
-            border: 2px solid black;
-
-            border-radius: 10px;
-
-            color: black;
+            float: left;
 
         }
 
-        .remember {
+        .isikiri h4 {
 
-            padding: 0;
+            margin-top: 40px;
+
+        }
+
+        .isikiri p {
 
             font-size: 8pt;
 
-            margin: 20px 0;
+            height: 50px;
 
         }
 
-        button {
+        .isikiri img{
 
-            padding: 7px 35px;
+            width: 30px;
 
-            background-color: #FFFF00;
+            height: 30px;
 
-            border-radius: 12px;
+            padding: 5px;
+
+            margin: -30px 0 0 -50px;
+
+            border: 2px solid white;
+
+            border-radius: 50px;
 
         }
 
         .footer {
 
+            clear: both;
+
             width: 100%;
 
-            margin: 300px auto 0 auto;
+            margin: 500px auto 0 auto;
 
             text-align: center;
 
@@ -199,7 +233,38 @@
 
             .content {
 
-                width: 100%;
+            	width: 100%;
+
+            }
+
+            .isi {
+
+            	margin: 0px;
+
+                float: none;
+
+                width: 90%;
+
+            }
+
+            .isi p {
+
+                margin-bottom: 30px;
+
+                font-size: 10pt;
+
+            }
+
+            .isi a {
+                text-decoration: none;
+
+                padding: 8px 20px;
+
+                font-size: 11pt;
+
+                background-color: rgb(255, 255, 0);
+
+                border-radius: 25px;
 
             }
 
@@ -208,7 +273,7 @@
                 width: 100%;
 
                 margin: 250px auto 0 auto;
-                /* font-size: 12pt; */
+                
             }
 
             .socialmedia {
@@ -220,37 +285,10 @@
             }
 
             .socialmedia img {
-                margin: 20px 0;
-            }
-
-            .meidapartner {
 
                 margin: 20px 0;
 
             }
-
-            .meidapartner img {
-
-                margin: 20px;
-
-            }
-
-            .contact {
-
-                float: none;
-
-                margin: 0px 0 20px 0;
-
-                padding: 0px;
-
-            }
-
-            .contact p {
-
-                margin-top: 20px;
-
-            }
-
 
         }
 
@@ -263,7 +301,7 @@
             }
 
             .topnav a.icon {
-                /* clear: both; */
+
                 float: right;
 
                 display: block;
@@ -280,78 +318,80 @@
             .form-group {
 
                 margin: 20px auto;
-                
+
                 padding: 5px;
-                
+
                 width: 280px;
-                
+
                 height: 30px;
-                
+
                 border: 2px solid black;
-                
+
                 border-radius: 10px;
-                
+
                 color: black;
-            
+
             }
 
         }
 
         @media screen and (max-width: 720px) {
-            
+
             .topnav.responsive {
-            
+
                 position: relative;
-            
+
             }
 
             .topnav.responsive .icon {
-            
+
                 position: absolute;
-            
+
                 right: 0;
-            
+
                 top: 0;
-            
+
             }
-            
+
             .topnav a.active,
-            
+
             .as {
-            
+
                 margin-top: 0px;
-            
+
                 float: none;
-            
+
             }
 
             .topnav a.active:hover {
-            
+
                 float: none;
-            
+
                 border-bottom: 0;
-            
+
                 background-color: #03265c;
-            
+
                 border-radius: 10px;
-            
+
             }
 
             .topnav.responsive a {
-            
+
                 clear: both;
-            
+
                 float: none;
-            
+
                 display: block;
-            
+
                 text-align: center;
-            
+
             }
-        
+
         }
 
-    </style>
+	</style>
+
+</head>
 
 <body>
 
@@ -368,7 +408,7 @@
         <a href="bantuan.html" class="active">BANTUAN</a>
 
         <a href="index.html" class="active">KELUAR</a>
-		
+
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
             <i class="fa fa-bars"></i>
@@ -378,27 +418,22 @@
     </div>
 
     <div class="content">
-        
-        <h1>Frequantly Asked Questin</h1>
-
-        <h2>Pertanyaan paling populer:</h2>
 
         <p>
-        <i class= "hover">-Bagaimana Cara Mendaftar Akun Sahabat Bunda?</i></p>
-
-        <p>
-        <i class= "hover">-Bagaimana Cara Menggunakan Jasa Perawat?</i></p>
-
-        <p>
-        <i class= "hover">-Bagaimana Jika Lupa Password?</i></p>
+            Permintaan Anda Telah Diproses.
+            <br><br>
+            Nomer Pelanggan : pirlicilaila00023456.
+            <br><br>
+            Silahkan Cek E-mail Secara Berkala.
+        </p>
 
     </div>
 
-     <div class="footer">
+    <div class="footer">
 
         <div class="socialmedia">
 
-            <h5>More Informations: </h5>
+            <h5>Informasi Lebih Lanjut: </h5>
 
             <ul>
 
