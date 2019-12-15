@@ -6,390 +6,13 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" type="text/css" href="halaman1.css">
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
 
 	<title>SAHABAT BUNDA</title>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-	<style>
-		
-		*{
-
-			margin: 0;
-
-			padding: 0;
-
-			color: #03265c;
-
-			font-family: "Muli", sans-serif;
-
-		}
-
-		body{
-
-			width: 80%;
-
-            margin: 50px auto;
-
-            background-image: url("4.jpeg");
-
-            background-size: cover;
-
-		}
-
-		.topnav {
-
-            overflow: hidden;
-
-        }
-
-        .topnav a {
-
-            display: inline-block;
-
-            text-align: center;
-
-            padding: 14px 16px;
-
-            text-decoration: none;
-
-            font-size: 17px;
-
-        }
-
-        .topnav .a {
-
-            float: left;
-
-        }
-
-        .topnav img {
-
-            width: 30px;
-
-            height: 30px;
-
-            float: left;
-
-            margin-top: -5px;
-
-        }
-
-        .topnav h4 {
-
-            float: left;
-        }
-
-        .topnav a.active,
-
-        .as {
-
-            float: right;
-
-        }
-
-        .topnav a.active:hover {
-
-            float: right;
-
-            border-bottom: 2px solid #03265c;
-
-        }
-
-        .topnav .icon {
-
-            display: none;
-
-        }
-
-        .content {
-
-            margin: 80px auto;
-
-            width: 80%;
-
-        }
-
-        .isi{
-
-        	margin: 0px;
-
-        	width: 90%;
-
-        	height: 300px;
-
-        	float: none;
-
-        }
-
-        .isi p {
-
-            margin-bottom: 30px;
-
-           	font-size: 10pt;
-
-            }
-
-        .isi a {
-
-            text-decoration: none;
-
-            padding: 8px 20px;
-
-            font-size: 11pt;
-
-            background-color: rgb(255, 255, 0);
-
-            border-radius: 25px;
-
-            }
-
-        .contentdua {
-
-            margin: 100px 0;
-
-            margin-left: 50px;
-
-        }
-
-        .isikiri {
-
-            width: 45%;
-
-            margin-left: -30px;
-
-            float: left;
-
-        }
-
-        .isikiri h4 {
-
-            margin-top: 40px;
-
-        }
-
-        .isikiri p {
-
-            font-size: 8pt;
-
-            height: 50px;
-
-        }
-
-        .isikiri img{
-
-            width: 30px;
-
-            height: 30px;
-
-            padding: 5px;
-
-            margin: -30px 0 0 -50px;
-
-            border: 2px solid white;
-
-            border-radius: 50px;
-
-        }
-
-        .footer {
-
-            clear: both;
-
-            width: 100%;
-
-            margin: 500px auto 0 auto;
-
-            text-align: center;
-
-        }
-
-        .socialmedia {
-
-            float: left;
-
-            margin: 0px 0 20px 0;
-
-            padding: 0px;
-
-        }
-
-        .socialmedia ul li {
-
-            display: inline-block;
-
-        }
-
-        .socialmedia img {
-
-            width: 30px;
-
-            height: 30px;
-
-        }
-
-        @media screen and (max-width: 960px) {
-
-            .content {
-
-            	width: 100%;
-
-            }
-
-            .isi {
-
-            	margin: 0px;
-
-                float: none;
-
-                width: 90%;
-
-            }
-
-            .isi p {
-
-                margin-bottom: 30px;
-
-                font-size: 10pt;
-
-            }
-
-            .isi a {
-                text-decoration: none;
-
-                padding: 8px 20px;
-
-                font-size: 11pt;
-
-                background-color: rgb(255, 255, 0);
-
-                border-radius: 25px;
-
-            }
-
-            .footer {
-
-                width: 100%;
-
-                margin: 250px auto 0 auto;
-                
-            }
-
-            .socialmedia {
-
-                float: none;
-
-                margin: 20px 0;
-
-            }
-
-            .socialmedia img {
-
-                margin: 20px 0;
-
-            }
-
-        }
-
-        @media screen and (max-width: 720px) {
-
-            .topnav a:not(:first-child) {
-
-                display: none;
-
-            }
-
-            .topnav a.icon {
-
-                float: right;
-
-                display: block;
-
-            }
-
-            .topnav a.active,
-
-            .as {
-
-                float: none;
-
-            }
-            .form-group {
-
-                margin: 20px auto;
-
-                padding: 5px;
-
-                width: 280px;
-
-                height: 30px;
-
-                border: 2px solid black;
-
-                border-radius: 10px;
-
-                color: black;
-
-            }
-
-        }
-
-        @media screen and (max-width: 720px) {
-
-            .topnav.responsive {
-
-                position: relative;
-
-            }
-
-            .topnav.responsive .icon {
-
-                position: absolute;
-
-                right: 0;
-
-                top: 0;
-
-            }
-
-            .topnav a.active,
-
-            .as {
-
-                margin-top: 0px;
-
-                float: none;
-
-            }
-
-            .topnav a.active:hover {
-
-                float: none;
-
-                border-bottom: 0;
-
-                background-color: #03265c;
-
-                border-radius: 10px;
-
-            }
-
-            .topnav.responsive a {
-
-                clear: both;
-
-                float: none;
-
-                display: block;
-
-                text-align: center;
-
-            }
-
-        }
-
-	</style>
 
 </head>
 
@@ -407,7 +30,7 @@
 
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
-            <i class="fa fa-bars"></i>
+            <i cla   ss="fa fa-bars"></i>
 
         </a>
 
@@ -426,47 +49,41 @@
 
     	</div>
 
-    	<div class="contentkedua">
+    </div>
 
-    		<div class="isikiri">
+    <div class="contentdua">
 
-    			<h4>Artikel</h4>
+    	<div class="isikiri">
 
-    			<img src="artikel.png" alt="artikel">
+            <img src="artikel.png" alt="artikel">
 
-    			<p>Dengan membaca artikel, Bunda dapat mengetahui informasi 
-    			dan pengetahuan tentang kehamilan dan lain-lain </p>
+            <p><b>Artikel</b> <br> <br>
+                Dengan membaca artikel, Bunda dapat mengetahui informasi 
+    		  dan pengetahuan tentang kehamilan dan lain-lain<br><br> </p>
 
-    			<h4>Jasa Perawat</h4>
+            <img src="perawat.png" alt="perawat">
 
-    			<img src="perawat.png" alt="perawat">
+            <p><b>Jasa Perawat</b> <br> <br>
+                Perawat sebagai teman Bunda, Jasa Perawat dapat diperoleh 
+    		  dengan mengisikan beberapa data diri Bunda</p>
 
-    			<p>Perawat sebagai teman Bunda, Jasa Perawat dapat diperoleh 
-    			dengan mengisikan beberapa data diri Bunda</p>
-
-    		</div>
-
-    	</div>
+        </div>
 
     </div>
 
     <div class="footer">
 
-    	<div class="socialmedia">
+    	<h5>Informasi Lebih Lanjut: </h5>
 
-    		<h5>Informasi Lebih Lanjut: </h5>
+    	<ul>
 
-    		<ul>
+    		<li><img src="instagram.png" alt="instagram"></li>
 
-    			<li><img src="instagram.png" alt="instagram"></li>
+    		<li><img src="facebook.png" alt="facebook"></li>
 
-    			<li><img src="facebook.png" alt="facebook"></li>
+    		<li><img src="twitter.png" alt="twitter"></li>
 
-    			<li><img src="twitter.png" alt="twitter"></li>
-
-    		</ul>
-
-    	</div>
+    	</ul>
 
     </div>
 

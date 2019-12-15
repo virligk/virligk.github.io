@@ -1,0 +1,261 @@
+body{
+
+	width: 80%;
+
+	margin: 20px auto;
+
+	background-image: url(4.jpeg);
+
+	background-size: cover;
+
+}
+
+.topnav {
+
+	overflow: hidden;
+
+	background: rgba(255, 255, 153, 0.5);
+
+
+}
+
+.topnav a{
+
+	display: inline-block;
+
+	text-align: center;
+
+	padding: 14px 16px;
+
+	text-decoration: none;
+
+	font-size: 17px;
+
+}
+
+.topnav .a{
+
+	font-family: "Muli", sans-serif;
+
+  	font-size: 15px;
+
+  	font-weight: 600;
+
+  	color: #03265c;
+
+  	float: left;
+
+}
+
+.topnav a.active,
+
+.as{
+
+	font-family: "Muli", sans-serif;
+
+  	font-size: 17px;
+
+  	font-weight: 600;
+
+  	color: #03265c;
+
+  	float: right;
+
+}
+
+.topnav a.active:hover {
+
+	float: right;
+
+	border-bottom: 2px solid; 
+
+}
+
+.topnav a.as:hover {
+
+	background-color:rgb(0, 0, 0);
+
+	border-radius: 10px;
+
+}
+
+.content{
+
+	margin-top: 100px;
+
+	clear: both;
+
+	width: 100%;
+
+}
+
+.isi{
+
+	float: left;
+
+	width: 50%;
+
+}
+
+.isi p{
+
+	font-size: 15pt;
+
+	font-family: 'Muli', sans-serif;
+
+	margin-bottom: 15px;
+
+}
+
+.isi a{
+
+	text-decoration: none;
+
+	padding: 8px 20px;
+
+	font-size: 15pt;
+
+	background-color: rgba(255, 255, 153, 0.5);
+
+	border-radius: 25px;
+
+	color: black;
+
+	font-family: 'Muli', sans-serif;
+
+}
+
+.contentdua{
+
+	clear: both;
+
+	margin-top: 390px;
+
+}
+
+.isikiri{
+
+	margin: 25px 0 0 75px;
+
+	width: 50%;
+
+	float: left;
+
+}
+
+.isikiri p{
+
+	font-size: 11pt;
+
+	font-family: 'Muli', sans-serif;
+
+	color: black;
+
+	height: 50px;
+
+}
+
+.isikiri img{
+
+	margin: 60px 0 0 0;
+
+	width: 30px;
+
+	height: 30px;
+
+	padding: 5px;
+
+	border-radius: 50px;
+
+	border: 1px solid black;
+
+}
+
+.footer{
+
+	margin-top: 750px;
+
+	padding: 0px;
+
+	float: left;
+
+}
+
+.footer h5{
+
+	font-size: 12pt;
+
+	font-family: 'Muli', sans-serif;
+
+}
+
+.footer ul li{
+
+	display: inline-block;
+
+}
+
+.footer img{
+
+	width: 30px;
+
+	height: 30px;
+
+}
+
+@media only screen and(max-width: 600px){
+
+	.topnav{
+
+		width: 50%;
+
+	}
+
+	.content{
+
+		width: 50%;
+
+	}
+
+	.contentkedua{
+
+		width: 50%;
+
+	}
+
+	.footer{
+
+		width: 50%;
+
+	}
+
+}
+
+@media only screen and(max-width: 300px){
+
+	.topnav{
+
+		width: 25%;
+
+	}
+
+	.content{
+
+		width: 25%;
+
+	}
+
+	.contentkedua{
+
+		width: 25%;
+
+	}
+
+	.footer{
+
+		width: 25%;
+
+	}
+}
+
+
