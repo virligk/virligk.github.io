@@ -87,65 +87,7 @@
 
     </div>
 
-    <script type="text/javascript">
-        // var validasi = (function (){
-        //     event.preventDefault();
-        //     alert('test');
-        // });
-
-        function myFunction() {
-
-            var x = document.getElementById("myTopnav");
-
-            if (x.className === "topnav") {
-
-                x.className += " responsive";
-
-            } else {
-
-                x.className = "topnav";
-
-            }
-
-        }
-
-        function validasi() {
-
-        var nama lengkap = document.getElementById("name").value;
-
-        var nomor telepon = document.getElementById("nomor.telepon").value;
-
-		var username = document.getElementById("username").value;
-
-		var password = document.getElementById("password").value;
-
-        console.log(username);
-
-		if (username == "" && password =="") {
-
-            alert("Data Kosong");
-
-			return false;
-
-		}else if(username !="" && password !=""){
-
-			alert("Yeayy Masuk");
-
-            window.location.href="index.html";
-
-		}
-
-        else{
-
-            alert("Data Kosong");
-
-            return false;
-
-        }
-
-	 }
-
-    </script>
+    <script type="text/javascript" src="daftarbaru.js"></script>
 
 </body>
 

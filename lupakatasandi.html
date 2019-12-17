@@ -48,34 +48,6 @@
 
     </div>
 
-    <div id="backdrop-modal" class="modal">
-
-        <div class="content-modal">
-
-            <div class="modal-header">
-
-                <span id="btn-close" class="display-topright">&times;</span>
-
-            </div>
-
-            <div class="modal-content">
-
-                <label for="code">Masukkan Kode Verifikasi:</label>
-
-                <input type="text" id="code" class="form-group" placeholder="Masukkan Kode Konfirmasi">
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button onclick="thisClicked()" style="width:auto;" class="button">KIRIM</button>
-
-            </div>
-
-        </div>
-
-    </div>
-
     <div class="footer">
 
     	<div class="socialmedia">
@@ -97,18 +69,27 @@
     </div>
 
 <div id="popUp1" class="popUp">
-  <form class="popUp-content animate">
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+  <form class="popUp-content animate">
+
+    <div class="container">
+
+      <label for="psw"><b>Kata Sandi Baru</b></label>
+
+      <input type="password" placeholder="Masukkan Kata Sandi Baru" name="psw" required>
+
+      <label for="psw"><b>Konfirmasi</b></label>
+
+      <input type="password" placeholder="Konfirmasi" name="psw" required>
         
-      <button type="submit">Login</button>
+      <button type="submit">KIRIM</button>
+
     </div>
+
   </form>
+
 </div>
+
 <script type="text/javascript" src="lupasandi.js"></script>
 
 </body>

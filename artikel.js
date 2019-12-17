@@ -23,6 +23,7 @@ function myFunction() {
   
   // find the desired selectors
   var $btn = $('#request');
+  
   var $bio = $('#bio');
 
   // register an event
